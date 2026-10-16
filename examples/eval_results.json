@@ -1,0 +1,182 @@
+[
+  {
+    "text": "I was charged twice for my subscription this month.",
+    "type": "standard",
+    "expected": "billing",
+    "predicted": "billing",
+    "confidence": 0.721,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "Please refund the extra amount deducted from my card.",
+    "type": "standard",
+    "expected": "billing",
+    "predicted": "general inquiry",
+    "confidence": 0.384,
+    "correct": false,
+    "error": null
+  },
+  {
+    "text": "My invoice shows the wrong amount.",
+    "type": "standard",
+    "expected": "billing",
+    "predicted": "billing",
+    "confidence": 0.912,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "The app crashes every time I open the settings page.",
+    "type": "standard",
+    "expected": "technical issue",
+    "predicted": "technical issue",
+    "confidence": 0.859,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "The website shows an error when I submit the form.",
+    "type": "standard",
+    "expected": "technical issue",
+    "predicted": "technical issue",
+    "confidence": 0.726,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "Notifications are not working on my phone.",
+    "type": "standard",
+    "expected": "technical issue",
+    "predicted": "technical issue",
+    "confidence": 0.913,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "I cannot log in to my account and it says invalid password.",
+    "type": "standard",
+    "expected": "account access",
+    "predicted": "account access",
+    "confidence": 0.849,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "I forgot my password and the reset email never arrives.",
+    "type": "standard",
+    "expected": "account access",
+    "predicted": "account access",
+    "confidence": 0.605,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "My account got locked after too many attempts.",
+    "type": "standard",
+    "expected": "account access",
+    "predicted": "account access",
+    "confidence": 0.674,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "My order has not arrived and the tracking is not updating.",
+    "type": "standard",
+    "expected": "delivery",
+    "predicted": "delivery",
+    "confidence": 0.497,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "The package was delivered to the wrong address.",
+    "type": "standard",
+    "expected": "delivery",
+    "predicted": "delivery",
+    "confidence": 0.939,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "My parcel is delayed by a week.",
+    "type": "standard",
+    "expected": "delivery",
+    "predicted": "delivery",
+    "confidence": 0.936,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "What plans do you offer and how much do they cost?",
+    "type": "standard",
+    "expected": "general inquiry",
+    "predicted": "general inquiry",
+    "confidence": 0.373,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "Do you have a mobile app for Android?",
+    "type": "standard",
+    "expected": "general inquiry",
+    "predicted": "general inquiry",
+    "confidence": 0.583,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "What are your customer support working hours?",
+    "type": "standard",
+    "expected": "general inquiry",
+    "predicted": "general inquiry",
+    "confidence": 0.644,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "Thanks for the help earlier but I am still being charged twice.",
+    "type": "hard-mixed-sentiment",
+    "expected": "billing",
+    "predicted": "billing",
+    "confidence": 0.653,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "Great another app crash. Just what I needed today.",
+    "type": "hard-sarcasm",
+    "expected": "technical issue",
+    "predicted": "technical issue",
+    "confidence": 0.663,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "help",
+    "type": "hard-too-short",
+    "expected": "general inquiry",
+    "predicted": "general inquiry",
+    "confidence": 0.453,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "I paid for express delivery but the package is late and I want my money back.",
+    "type": "hard-ambiguous",
+    "expected": "delivery",
+    "predicted": "delivery",
+    "confidence": 0.811,
+    "correct": true,
+    "error": null
+  },
+  {
+    "text": "I cannot log in because the app keeps crashing on the login screen.",
+    "type": "hard-ambiguous",
+    "expected": "technical issue",
+    "predicted": "technical issue",
+    "confidence": 0.673,
+    "correct": true,
+    "error": null
+  }
+]

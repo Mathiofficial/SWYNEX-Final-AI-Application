@@ -1,0 +1,42 @@
+[
+  {
+    "input": "I was charged twice for my subscription this month and nobody is replying to me.",
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 1.0,
+    "category": "billing",
+    "category_score": 0.661,
+    "priority": "High"
+  },
+  {
+    "input": "The app crashes every time I try to upload a photo.",
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 1.0,
+    "category": "technical issue",
+    "category_score": 0.883,
+    "priority": "High"
+  },
+  {
+    "input": "I forgot my password and the reset email never arrives.",
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 1.0,
+    "category": "account access",
+    "category_score": 0.605,
+    "priority": "High"
+  },
+  {
+    "input": "My order was supposed to arrive last week and the tracking hasn't updated.",
+    "sentiment": "NEGATIVE",
+    "sentiment_score": 0.999,
+    "category": "delivery",
+    "category_score": 0.72,
+    "priority": "High"
+  },
+  {
+    "input": "Thanks for the quick help yesterday, could you tell me what plans you offer?",
+    "sentiment": "POSITIVE",
+    "sentiment_score": 0.992,
+    "category": "general inquiry",
+    "category_score": 0.664,
+    "priority": "Low"
+  }
+]

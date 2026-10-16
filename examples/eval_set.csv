@@ -1,0 +1,21 @@
+text,expected_category,type
+I was charged twice for my subscription this month.,billing,standard
+Please refund the extra amount deducted from my card.,billing,standard
+My invoice shows the wrong amount.,billing,standard
+The app crashes every time I open the settings page.,technical issue,standard
+The website shows an error when I submit the form.,technical issue,standard
+Notifications are not working on my phone.,technical issue,standard
+I cannot log in to my account and it says invalid password.,account access,standard
+I forgot my password and the reset email never arrives.,account access,standard
+My account got locked after too many attempts.,account access,standard
+My order has not arrived and the tracking is not updating.,delivery,standard
+The package was delivered to the wrong address.,delivery,standard
+My parcel is delayed by a week.,delivery,standard
+What plans do you offer and how much do they cost?,general inquiry,standard
+Do you have a mobile app for Android?,general inquiry,standard
+What are your customer support working hours?,general inquiry,standard
+Thanks for the help earlier but I am still being charged twice.,billing,hard-mixed-sentiment
+Great another app crash. Just what I needed today.,technical issue,hard-sarcasm
+help,general inquiry,hard-too-short
+I paid for express delivery but the package is late and I want my money back.,delivery,hard-ambiguous
+I cannot log in because the app keeps crashing on the login screen.,technical issue,hard-ambiguous
